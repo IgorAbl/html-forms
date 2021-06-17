@@ -89,16 +89,13 @@ input{
     width: 24vh;
 }
 
-.Gender1 {
-    margin-left: 13vh;
-}
-
-.Gender2 {
-    margin-left: 18vh;
-}
-
-.Gender3 {
-    margin-left: 18vh;  
+.Gender {
+    margin-left: 12vh;
+    border: 2px solid green;
+    width: 17vh;
+    padding: 4.5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .Message {
