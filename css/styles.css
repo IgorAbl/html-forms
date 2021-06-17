@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+:root{
+    --contact-color: rgba(255, 255, 255, 0.048);
+    --font-color: rgb(255, 249, 249);
+    --box-shadow: 0 0 15px rgb(0, 0, 0)
+}
+
+input:valid {
+    border-color: green;
+}
+  
+input:invalid {
+    border-color: red;
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(/images/realistic-polygonal-background_52683-61087.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.contact-box{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    display: flex;
+    color: var(--font-color);
+    box-shadow: var(--box-shadow);
+    background: var(--contact-color);
+}
+
+.text{
+    padding: 30px;
+
+}
+
+.text > h1{
+    margin-bottom: 20px;
+}
+
+
+input{
+    padding: 6px 10px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.FirstName {
+    margin-left: 9.7vh;
+    width: 30vh;
+}
+
+.LastName{
+    margin-left: 1.3vh;
+    width: 30vh;
+}
+
+.Email{
+    margin-left: 10vh;
+    width: 62.5vh;
+}
+
+.tel1 {
+    margin-left: 12.8vh;
+    width: 17vh;
+}
+
+.tel2 {
+    width: 17vh;
+}
+
+.tel3 {
+    width: 24vh;
+}
+
+.Gender1 {
+    margin-left: 13vh;
+}
+
+.Gender2 {
+    margin-left: 18vh;
+}
+
+.Gender3 {
+    margin-left: 18vh;  
+}
+
+.Message {
+    margin-left: 10.5vh;
+    width: 62.5vh;
+}
+
+button{
+    width: 62.5vh;
+    margin-top: 10px;
+    margin-left: 19.5vh;
+    padding: 6px 8px;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+button:hover{
+    border-color: white;
+}

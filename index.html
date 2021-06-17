@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class='flex-box'>
+        <div class='contact-box'>
+            <div class="text">
+                <h1>Contact Form</h1>
+                <p>Please fill in your information and we'll be sending your order:</p>
+                <br>
+                <form action="#" method="GET">
+                    <label>
+                        <span>Your name</span>
+                        <input class="FirstName" type="text" placeholder="FirstName" autofocus required pattern="[A-Z][a-z]{0,19}(-[A-Z][a-z]{0,19})?">
+                    </label>
+                    <label>
+                        <input class="LastName" type="text" placeholder="LastName" required pattern="[A-Z][a-z]{0,19}(-[A-Z][a-z]{0,19})?">
+                    </label>
+                    <br>
+
+                    <label>
+                        <span>Your email</span>
+                        <input class="Email" type="email" placeholder="example@example.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    </label>
+                    <br>
+
+                    <label>
+                        <span>Phone*</span>
+                        <input class="tel1" type="tel" placeholder="000" pattern="\d{3}">
+                        <input class="tel2" type="tel" placeholder="000" pattern="\d{3}">
+                        <input class="tel3" type="tel" placeholder="0000" pattern="\d{4}">
+                    </label>
+                    <br>
+
+                    <span>Gender*</span>
+                    <input class="Gender1" type="radio" name="gender" value="male" id="male">
+                    <label for="male">Male</label>
+                    
+                    <input class="Gender2" type="radio" name="gender" value="female" id="female">
+                    <label for="female">Female</label>
+                    
+                    <input class="Gender3" type="radio" name="gender" value="other" id="other">
+                    <label for="other">Other</label>
+                    <br>
+
+                    <label>
+                        <span>Message*</span>
+                        <input class="Message" type="messages"  placeholder="Say something">
+                    </label>
+                    <hr>
+
+                    <button type="submit">Submit</button>
+                    <br>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
